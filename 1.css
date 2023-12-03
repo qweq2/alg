@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab:wght@700&family=Roboto:wght@300&display=swap');
+.main{
+width: 1440px;
+height: 1046px;
+background: #FFF;
+}
+.curs{
+color: #000;
+font-family: Roboto Slab;
+font-size: 55px;
+font-style: normal;
+font-weight: 700;
+line-height: 101.385%;
+margin: 30px 0px 0px 40px;
+}
+.document{
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+width: 662px;
+height: 374px;
+flex-shrink: 0;
+color: #000;
+margin-top: 20px;
+margin-left: 40px;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+}
+.foto{
+width: 314px;
+height: 315px;
+flex-shrink: 0;
+}
+.info{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.foto2{
+width: 232px;
+height: 203px;
+flex-shrink: 0;
+}
+.foto21{
+width: 189px;
+height: 32px;
+flex-shrink: 0;
+margin-left: 30px;
+}
+.inf{
+width: 150px;
+height: 39px;
+flex-shrink: 0;
+color: #000;
+
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%;
+}
+b{
+    font-size: 25px;
+    font-weight: 700;
+}
+@media (max-width: 834px){
+    .curs{
+        color: #000;
+        font-family: Roboto Slab;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 101.385%;
+        margin: 30px 0px 0px 40px;
+        }
+        .document{
+            display: flex;
+            justify-content: space-between;
+        }
+        .text{
+        width: 662px;
+        height: 374px;
+        flex-shrink: 0;
+        color: #000;
+        margin-top: 20px;
+        margin-left: 40px;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        }
+        .foto{
+        width: 314px;
+        height: 315px;
+        flex-shrink: 0;
+        }
+        .info{
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .inf{
+        width: 150px;
+        height: 39px;
+        flex-shrink: 0;
+        color: #000;
+        font-family: Roboto;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        }
+        b{
+            font-size: 15px;
+            font-weight: 700;
+        }
+    }
